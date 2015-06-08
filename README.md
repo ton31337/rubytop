@@ -4,11 +4,12 @@ rubytop.rb
 $ /root/bin/rubytop.rb -h
 Usage: rubytop.rb [options]
     -g, --greater <integer>          Filter if latency is greater than X ms
+    -e, --exclude <string>           Exclude class
+    -i, --include <string>           Include only class
     -n, --num <integer>              Show only X entries
     -p, --path <string>              Ruby path
     -r, --refresh <integer>          Refresh interval
     -s, --sort_time                  Sort by time
-    -c, --class <string>             Filter only by class
     -h, --help                       Displays Help
 ```
 
