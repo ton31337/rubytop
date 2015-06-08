@@ -1,5 +1,28 @@
 rubytop.rb
 ==============
+
+### Before usage
+
+rbenv:
+```
+yum install systemtap systemtap-runtime systemtap-sdt-devel kernel-devel kernel-debuginfo -y
+CONFIGURE_OPTS="--enable-dtrace" rbenv install 2.2.2
+```
+
+repo ruby:
+```
+yum install ruby systemtap systemtap-runtime systemtap-sdt-devel kernel-devel kernel-debuginfo -y
+```
+
+rvm:
+```
+yum install systemtap systemtap-runtime systemtap-sdt-devel kernel-devel kernel-debuginfo -y
+rvm install 2.2.2 --enable-dtrace
+```
+
+P.S. tested only on CentOS 6.x, 7.x
+
+### Usage
 ```
 $ /root/bin/rubytop.rb -h
 Usage: rubytop.rb [options]
