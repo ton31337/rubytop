@@ -15,7 +15,7 @@ Usage: rubytop.rb [options]
 
 ### Example
 ```
-$ /root/bin/rubytop.rb -r 3 -n 20 -g 20 -c Catalog
+$ /root/bin/rubytop.rb -r 3 -n 20 -g 20 -i Catalog
 Compiling, please wait...
 Probing...Type CTRL+C to stop probing.
 <0.023239> tid:26779    count:2        [Catalog#parent_ids] /opt/../catalog.rb:331
